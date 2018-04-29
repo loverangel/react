@@ -1,0 +1,73 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run android
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Users\Administrator\AppData\Local\Android\sdk\tools;C:\Users\Administrator\AppData\Local\Android\sdk\platform-tools;C:\Program Files\CMake\bin;C:\jython2.5.3\bin;C:\Python27;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "React中使用Redux数据流",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack",
+      "start": "webpack-dev-server --line --hot",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MuYunyun/todoList.git"
+    },
+    "keywords": [
+      "redux"
+    ],
+    "author": "牧云云",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MuYunyun/todoList/issues"
+    },
+    "homepage": "https://github.com/MuYunyun/todoList#readme",
+    "devDependencies": {
+      "babel-core": "^6.21.0",
+      "babel-loader": "^6.2.10",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-react": "^6.16.0",
+      "css-loader": "^0.28.4",
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-redux": "^5.0.1",
+      "redux": "^3.6.0",
+      "style-loader": "^0.18.2",
+      "webpack": "^1.14.0",
+      "webpack-dev-server": "^1.16.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command "android" not found.
+      at new MessageError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87307:17
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:23451:28)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95:12
+      at runCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87312:22)
+      at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87412:14)
